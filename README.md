@@ -1,8 +1,17 @@
-# Deloitte Australia – Data Analytics Virtual Job Simulation
+## 📊 Deloitte Australia – Data Analytics Job Simulation
 
-This repository contains my completed project work for the **Deloitte Australia Data Analytics Virtual Experience Program (Forage)**.
+Author: Shubhangi Pawar
 
-The simulation focused on real-world business analysis, dashboard development, and forensic data classification.
+Completion Date: February 2026
+
+Platform: Forage (Deloitte Australia Virtual Experience)
+
+
+## 🔎 Project Overview
+
+This repository showcases my end-to-end analytical solution developed as part of the Deloitte Australia Data Analytics Virtual Experience (Forage). 
+
+The project simulates real-world consulting scenarios involving operational analytics and forensic pay equity assessment, demonstrating data visualization, logical classification, and business insight generation.
 
 ---
 
@@ -34,6 +43,9 @@ The simulation included two core analytical tasks:
 - Structured layout using containers for clean executive presentation
 - Delivered insights highlighting production inefficiencies
 
+Key Insight:
+LaserWelder and LaserCutter accounted for the majority of total downtime, indicating targeted maintenance strategies could significantly improve operational efficiency.
+
 ---
 
 ### 🔹 Task 2: Gender Pay Equality Classification (Excel – Forensic Analysis)
@@ -44,10 +56,14 @@ The simulation included two core analytical tasks:
 - Created a new “Equality Class” column using logical conditions
 - Implemented classification logic using:
 
-```excel
-=IF(ABS(C2)<=10,"Fair",IF(ABS(C2)<=20,"Unfair","Highly Discriminative"))
+ =IF(ABS(C2)<=10,"Fair",
+   IF(ABS(C2)<=20,"Unfair",
+   "Highly Discriminative"))
 
-## Applied structured thresholds:
+
+
+
+📌 Applied structured thresholds:
 
 ±10 → Fair
 
@@ -57,21 +73,28 @@ Beyond ±20 → Highly Discriminative
 
 Delivered consistent and rule-based classification output
 
-🛠 Tools & Technical Skills Demonstrated
-Category	Skills Applied
-Data Visualization	Tableau Public, KPI Design
-Data Analysis	Trend Analysis, Comparative Analysis
-Excel Analytics	IF, ABS, Logical Functions
-Business Analytics	Operational Insight, Forensic Classification
-Reporting	Executive-style Dashboard Presentation
 
-📁 Repository Structure
-deloitte-data-analytics-job-simulation/
-│
-├── Equality_Table.xlsx
-├── Forensic_Analysis_Excel.xlsx
-├── Shubhangi_Pawar_Manufacturing_Downtime_Dashboard.png
-├── README.md
+Key Insight:
+Certain senior management roles exhibited highly discriminatory equality scores, suggesting potential structural pay imbalance requiring HR policy review.
+
+
+## 🔄 Analytical Workflow
+
+Data → Cleaning & Processing → Analysis → Visualization → Business Insight → Executive Presentation
+
+This project demonstrates a complete analytics lifecycle aligned with consulting delivery standards.
+
+
+## 🛠 Tools & Technical Skills Demonstrated
+
+| Area | Technologies / Methods Used |
+|------|-----------------------------|
+| Data Visualization | Tableau Public, KPI Card Design, Executive Dashboard Layout |
+| Data Analysis | Trend Analysis, Root Cause Identification, Comparative Analysis |
+| Excel Modeling | IF(), Nested IF(), ABS(), Rule-based Classification |
+| Business Insight | Forensic Data Evaluation, Operational Bottleneck Identification |
+| Reporting | Stakeholder-focused Presentation, Insight Communication |
+
 
 📌 Key Outcomes & Impact
 
@@ -83,23 +106,26 @@ Applied structured classification methodology for forensic evaluation
 
 Demonstrated end-to-end analytics workflow (Data → Analysis → Insight → Presentation)
 
-📜 Certification
 
-Completed Deloitte Australia – Data Analytics Job Simulation
-Issued by Forage | February 2026
+📌 Skills Demonstrated
 
-Practical Areas Covered:
+Data Cleaning & Structuring
 
-Data Analysis
+Business Rule Implementation
 
-Forensic Technology
+Dashboard Design & KPI Visualization
 
-Business Reporting
+Analytical Thinking
 
-Dashboard Development
+Data Classification Modeling
 
-📸 Additional Screenshots
+Insight Communication
 
-Downtime Dashboard: Shubhangi_Pawar_Manufacturing_Downtime_Dashboard.png
 
-Equality Classification Output: Shubhangi_Pawar_Task_2.xlsx
+## 🎓 Certification
+Deloitte Australia – Data Analytics Job Simulation
+
+📅 February 2026
+🏢 Issued by Deloitte (via Forage)
+
+<p align="center"> <img src="Certificate_ss.png" width="800"> </p>
