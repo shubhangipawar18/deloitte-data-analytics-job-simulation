@@ -1,67 +1,105 @@
-# Deloitte Data Analytics Job Simulation
+# Deloitte Australia – Data Analytics Virtual Job Simulation
 
-This repository contains my project work completed as part of the **Deloitte Australia Data Analytics Virtual Experience (Forage)** — involving data analysis, dashboard design, and forensic classification logic.
+This repository contains my completed project work for the **Deloitte Australia Data Analytics Virtual Experience Program (Forage)**.
+
+The simulation focused on real-world business analysis, dashboard development, and forensic data classification.
 
 ---
 
-## 🔗 Interactive Dashboard
+## 🔗 Live Tableau Dashboard
 
-Explore the live manufacturing downtime dashboard I built using Tableau:
+Explore the interactive Manufacturing Downtime Dashboard:
 
 👉 https://public.tableau.com/app/profile/shubhangi.pawar2124/viz/Shubhangi_Pawar_Manufacturing_Downtime_Dashboard/Dashboard?publish=yes
 
-![Dashboard Screenshot](Shubhangi_Pawar_Manufacturing_Downtime_Dashboard.png)
----
-
-## 🧠 Project Overview
-
-This simulation consisted of two main analytic tasks:
-
-### 1. **Manufacturing Downtime Analysis | Tableau**
-- Developed an interactive **Tableau dashboard** to analyse machine downtime by device and factory
-- Designed KPI indicators for total downtime and highest downtime device
-- Visualized insights to highlight operational bottlenecks
-
-### 2. **Gender Pay Equality Classification | Excel**
-- Used logical functions in **Microsoft Excel** to classify roles based on equality scores
-- Applied structured rules to label scores as *Fair*, *Unfair*, or *Highly Discriminative*
-- Implemented a formula leveraging `IF()` and `ABS()` functions for consistent classification
+![Manufacturing Downtime Dashboard](Shubhangi_Pawar_Manufacturing_Downtime_Dashboard.png)
 
 ---
 
-## 🛠 Tools & Skills
+## 📊 Project Summary
 
-| Category | Tools |
-|----------|-------|
-| Data Visualization | Tableau Public |
-| Data Processing | Excel (Advanced), Logical Functions |
-| Analytics | KPI Design, Data Classification |
-| Practices | Business Insight, Forensic Analysis |
+The simulation included two core analytical tasks:
 
 ---
 
-## 📁 Repository Contents
-📂 deloitte-data-analytics-job-simulation
+### 🔹 Task 1: Manufacturing Downtime Analysis (Tableau)
+
+**Objective:** Identify operational bottlenecks across devices and factories.
+
+- Built an interactive Tableau dashboard analyzing machine downtime
+- Designed KPI cards for:
+  - Total Downtime
+  - Highest Downtime Device
+- Used bar visualizations to compare downtime across factories
+- Structured layout using containers for clean executive presentation
+- Delivered insights highlighting production inefficiencies
+
+---
+
+### 🔹 Task 2: Gender Pay Equality Classification (Excel – Forensic Analysis)
+
+**Objective:** Classify job roles based on equality scores to assess pay fairness.
+
+- Processed compensation data across factories
+- Created a new “Equality Class” column using logical conditions
+- Implemented classification logic using:
+
+```excel
+=IF(ABS(C2)<=10,"Fair",IF(ABS(C2)<=20,"Unfair","Highly Discriminative"))
+
+## Applied structured thresholds:
+
+±10 → Fair
+
+±20 → Unfair
+
+Beyond ±20 → Highly Discriminative
+
+Delivered consistent and rule-based classification output
+
+🛠 Tools & Technical Skills Demonstrated
+Category	Skills Applied
+Data Visualization	Tableau Public, KPI Design
+Data Analysis	Trend Analysis, Comparative Analysis
+Excel Analytics	IF, ABS, Logical Functions
+Business Analytics	Operational Insight, Forensic Classification
+Reporting	Executive-style Dashboard Presentation
+
+📁 Repository Structure
+deloitte-data-analytics-job-simulation/
 │
 ├── Equality_Table.xlsx
-├── Manufacturing_Downtime_Dashboard.png
 ├── Forensic_Analysis_Excel.xlsx
+├── Shubhangi_Pawar_Manufacturing_Downtime_Dashboard.png
 ├── README.md
 
-## 📌 Key Outcomes
+📌 Key Outcomes & Impact
 
-- Created clean, stakeholder-focused analytics deliverables
-- Built both visual dashboards and logical classification models
-- Gained practical experience simulating real-world consulting analysis
+Developed stakeholder-ready dashboard with actionable insights
 
----
+Translated business problems into analytical frameworks
 
-## 📜 Certification
+Applied structured classification methodology for forensic evaluation
 
-✅ Completed **Deloitte Australia Data Analytics Job Simulation** — February 2026  
-Issued via **Forage**
+Demonstrated end-to-end analytics workflow (Data → Analysis → Insight → Presentation)
 
----
-### 📸 Screenshots
-- Downtime dashboard image: `Shubhangi_Pawar_Manufacturing_Downtime_Dashboard.png`
-- Equality classification output: `Shubhangi_Pawar_Task_2.xlsx`
+📜 Certification
+
+Completed Deloitte Australia – Data Analytics Job Simulation
+Issued by Forage | February 2026
+
+Practical Areas Covered:
+
+Data Analysis
+
+Forensic Technology
+
+Business Reporting
+
+Dashboard Development
+
+📸 Additional Screenshots
+
+Downtime Dashboard: Shubhangi_Pawar_Manufacturing_Downtime_Dashboard.png
+
+Equality Classification Output: Shubhangi_Pawar_Task_2.xlsx
