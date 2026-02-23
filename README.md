@@ -129,3 +129,28 @@ Deloitte Australia – Data Analytics Job Simulation
 🏢 Issued by Deloitte (via Forage)
 
 <p align="center"> <img src="Certificate_ss.png" width="800"> </p>
+
+## 👤 Author
+
+**Shubhangi Pawar**
+
+- 📧 Email: ishubhangipawar@gmail.com
+- 💼 LinkedIn: linkedin.com/in/shubhangipawar18
+- 🌐 GitHub: github.com/shubhangipawar18
+
+### Background
+Former SNOC Engineer at Vodafone with 2+ years of telecom operations experience. Now combining domain expertise with data analytics skills to drive business insights.
+
+---
+
+
+
+## 🙏 Acknowledgments
+
+- Dataset: [IBM Sample Data via Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+- Tools: PostgreSQL, Power BI
+
+---
+
+⭐ **If you found this project useful, please give it a star!**
+
